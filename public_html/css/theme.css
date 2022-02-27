@@ -484,8 +484,41 @@ footer {
   background-color: #8a059e;
 }
 
-footer a, footer p {
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+footer ul a {
+  display: block;
+  padding: 5px 0;
   color: #ffffff;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+footer ul a:hover, footer ul a.active {
+  color: #00ab67;
+}
+
+footer .copyright {
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer ul a {
+    padding: 10px 20px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

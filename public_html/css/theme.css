@@ -39,7 +39,7 @@
 
 .btn-waring {
   background-color: #fa8900;
-  color: #ffffff;
+  color: #000000;
 }
 
 .btn-waring:hover {
@@ -48,7 +48,7 @@
 
 .btn-info {
   background-color: #00fbff;
-  color: #444444;
+  color: #000000;
 }
 
 .btn-info:hover {
